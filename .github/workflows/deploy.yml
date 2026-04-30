@@ -45,6 +45,8 @@ jobs:
             npm ci
 
             echo ">>> Building application..."
+            export NEXT_DEPLOYMENT_ID="$(git rev-parse HEAD)"
+            echo ">>> Deployment ID: $NEXT_DEPLOYMENT_ID"
             NODE_OPTIONS='--max-old-space-size=4096' npm run build
 
             echo ">>> Restarting PM2 app ($APP_NAME)..."
