@@ -35,10 +35,10 @@ const units = [
 ]
 
 interface DealersSectionProps {
-  onCtaClick: () => void
+  onCtaClick?: () => void
 }
 
-export function DealersSection({ onCtaClick }: DealersSectionProps) {
+export function DealersSection(_props: DealersSectionProps) {
   const ref = useRef<HTMLElement>(null)
   const inView = useInView(ref, { once: true, margin: "-80px" })
 
@@ -157,7 +157,7 @@ export function DealersSection({ onCtaClick }: DealersSectionProps) {
 
               <div className="flex gap-3 mt-auto pt-2">
                 <motion.a
-                  href={`https://wa.me/${unit.whatsapp}?text=Olá! Tenho interesse no programa Liberacred da Hadena Motomar.`}
+                  href={`https://wa.me/${unit.whatsapp}?text=${encodeURIComponent("Olá, vim da LP, quero mais informações sobre o liberacred, por favor.")}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.04 }}
@@ -171,19 +171,6 @@ export function DealersSection({ onCtaClick }: DealersSectionProps) {
                   <MessageCircle className="w-4 h-4" />
                   WhatsApp
                 </motion.a>
-                <motion.button
-                  onClick={onCtaClick}
-                  whileHover={{ scale: 1.04 }}
-                  whileTap={{ scale: 0.97 }}
-                  className="flex-1 inline-flex items-center justify-center gap-2 py-3 rounded-lg text-sm font-bold uppercase tracking-wide font-sans border"
-                  style={{
-                    borderColor: "oklch(0.55 0.22 240 / 0.4)",
-                    color: "var(--yamaha-blue-bright)",
-                    backgroundColor: "oklch(0.55 0.22 240 / 0.07)",
-                  }}
-                >
-                  Formulário
-                </motion.button>
               </div>
             </motion.div>
           ))}

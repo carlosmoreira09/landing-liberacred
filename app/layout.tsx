@@ -17,15 +17,15 @@ const barlowCondensed = Barlow_Condensed({
 })
 
 export const metadata: Metadata = {
-  title: 'Hadena Motomar — Revendedora Autorizada Yamaha | Liberacred',
+  title: 'LandingPages Motomar — Revendedora Autorizada Yamaha | Liberacred',
   description:
-    'Realize o sonho da sua Yamaha 0km mesmo negativado ou sem comprovação de renda. Hadena Motomar — concessionária autorizada Yamaha em Campos dos Goytacazes, Santo Antônio de Pádua e São Francisco de Itabapoana.',
-  keywords: 'Yamaha, moto financiamento, Liberacred, Hadena Motomar, moto negativado, financiamento sem comprovação renda',
+    'Realize o sonho da sua Yamaha 0km mesmo negativado ou sem comprovação de renda. LandingPages Motomar — concessionária autorizada Yamaha em Campos dos Goytacazes, Santo Antônio de Pádua e São Francisco de Itabapoana.',
+  keywords: 'Yamaha, moto financiamento, Liberacred, LandingPages Motomar, moto negativado, financiamento sem comprovação renda',
   icons: {
     icon: '/icon.svg',
   },
   openGraph: {
-    title: 'Hadena Motomar — Sua Yamaha 0km está mais perto do que você imagina',
+    title: 'LandingPages Motomar — Sua Yamaha 0km está mais perto do que você imagina',
     description: 'Financiamento aprovado mesmo para negativados e autônomos. Programa Liberacred do Banco Yamaha.',
     type: 'website',
   },

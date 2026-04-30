@@ -1,6 +1,5 @@
 "use client"
 
-import { useState } from "react"
 import { Navbar } from "@/components/navbar"
 import { HeroSection } from "@/components/hero-section"
 import { ProblemSection } from "@/components/problem-section"
@@ -11,31 +10,32 @@ import { DealersSection } from "@/components/dealers-section"
 import { FaqSection } from "@/components/faq-section"
 import { FinalCtaSection } from "@/components/final-cta-section"
 import { SiteFooter } from "@/components/site-footer"
-import { LeadFormModal } from "@/components/lead-form-modal"
 import { FloatingWhatsApp } from "@/components/floating-whatsapp"
 
-export default function Home() {
-  const [formOpen, setFormOpen] = useState(false)
+const WHATSAPP_NUMBER = "5522999990881"
+const WHATSAPP_MSG = encodeURIComponent(
+  "Olá, vim da LP, quero mais informações sobre o liberacred, por favor."
+)
+const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MSG}`
 
-  const openForm = () => setFormOpen(true)
-  const closeForm = () => setFormOpen(false)
+export default function Home() {
+  const openWhatsApp = () => window.open(WHATSAPP_URL, "_blank")
 
   return (
     <main>
-      <Navbar onCtaClick={openForm} />
+      <Navbar onCtaClick={openWhatsApp} />
 
-      <HeroSection onCtaClick={openForm} />
-      <ProblemSection onCtaClick={openForm} />
-      <LiberacredSection onCtaClick={openForm} />
-      <StepsSection onCtaClick={openForm} />
-      <ModelsSection onCtaClick={openForm} />
-      <DealersSection onCtaClick={openForm} />
+      <HeroSection onCtaClick={openWhatsApp} />
+      <ProblemSection onCtaClick={openWhatsApp} />
+      <LiberacredSection onCtaClick={openWhatsApp} />
+      <StepsSection onCtaClick={openWhatsApp} />
+      <ModelsSection onCtaClick={openWhatsApp} />
+      <DealersSection onCtaClick={openWhatsApp} />
       <FaqSection />
-      <FinalCtaSection onCtaClick={openForm} />
+      <FinalCtaSection onCtaClick={openWhatsApp} />
 
       <SiteFooter />
 
-      <LeadFormModal isOpen={formOpen} onClose={closeForm} />
       <FloatingWhatsApp />
     </main>
   )

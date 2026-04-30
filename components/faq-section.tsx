@@ -23,11 +23,11 @@ const faqs = [
   },
   {
     q: "O que acontece se eu atrasar uma parcela?",
-    a: "A pontualidade é fundamental no Liberacred — é ela que garante a aprovação do financiamento. Em caso de atraso, a equipe Hadena Motomar entra em contato para ajudar. Em situações extremas, a reserva pode ser cancelada, por isso recomendamos planejamento antes de aderir.",
+    a: "A pontualidade é fundamental no Liberacred — é ela que garante a aprovação do financiamento. Em caso de atraso, a equipe LandingPages Motomar entra em contato para ajudar. Em situações extremas, a reserva pode ser cancelada, por isso recomendamos planejamento antes de aderir.",
   },
   {
     q: "Quais motos estão disponíveis no programa?",
-    a: "A linha completa Yamaha disponível na Hadena Motomar está incluída no Liberacred: MT-03, MT-07, R3, Ténéré 700, Aerox e outros modelos. Entre em contato para confirmar o estoque atual.",
+    a: "A linha completa Yamaha disponível na LandingPages Motomar está incluída no Liberacred: MT-03, MT-07, R3, Ténéré 700, Aerox e outros modelos. Entre em contato para confirmar o estoque atual.",
   },
   {
     q: "Posso fazer tudo pelo WhatsApp?",

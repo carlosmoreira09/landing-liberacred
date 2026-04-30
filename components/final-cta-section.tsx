@@ -119,25 +119,9 @@ export function FinalCtaSection({ onCtaClick }: FinalCtaSectionProps) {
                 "linear-gradient(135deg, oklch(0.55 0.22 240) 0%, oklch(0.45 0.22 250) 100%)",
             }}
           >
-            Quero minha Yamaha agora
+            Falar no WhatsApp
             <span className="text-lg">→</span>
           </motion.button>
-
-          <motion.a
-            href="https://wa.me/5522999990001?text=Ol%C3%A1%21+Tenho+interesse+no+programa+Liberacred+da+Hadena+Motomar."
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.97 }}
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-5 text-base font-bold uppercase tracking-wider rounded-lg border font-sans"
-            style={{
-              borderColor: "oklch(0.55 0.22 240 / 0.5)",
-              color: "var(--yamaha-blue-bright)",
-              backgroundColor: "oklch(0.55 0.22 240 / 0.08)",
-            }}
-          >
-            Falar no WhatsApp
-          </motion.a>
         </motion.div>
 
         {/* Trust badges */}

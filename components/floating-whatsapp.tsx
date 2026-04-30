@@ -6,7 +6,7 @@ import { useState, useEffect } from "react"
 
 const WHATSAPP_NUMBER = "5522999990881"
 const WHATSAPP_MSG = encodeURIComponent(
-  "Olá, Hadena Motomar! Tenho interesse no programa Liberacred. Podem me ajudar?"
+  "Olá, vim da LP, quero mais informações sobre o liberacred, por favor."
 )
 
 export function FloatingWhatsApp() {

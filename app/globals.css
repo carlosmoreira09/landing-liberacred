@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Hadena Motomar / Yamaha — Dark motorsport theme */
+  /* LandingPages Motomar / Yamaha — Dark motorsport theme */
   --background: oklch(0.1 0.01 240);
   --foreground: oklch(0.97 0 0);
   --card: oklch(0.13 0.015 240);

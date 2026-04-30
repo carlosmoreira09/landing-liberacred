@@ -3,7 +3,7 @@ import { Instagram, MessageCircle } from "lucide-react"
 const INSTAGRAM_URL = "https://www.instagram.com/hadenamotomar"
 const WHATSAPP_NUMBER = "5522999990881"
 const WHATSAPP_MSG = encodeURIComponent(
-  "Olá, Hadena Motomar! Tenho interesse no programa Liberacred. Podem me ajudar?"
+  "Olá, LandingPages Motomar! Tenho interesse no programa Liberacred. Podem me ajudar?"
 )
 
 export function SiteFooter() {
